@@ -4,8 +4,8 @@
 }
 
 body {
-    background-color: rgb(62, 64, 66);
-    color: rgb(251, 251, 250);
+    background-color: var(--fundo);
+    color: var(--tesxt);
     font-size: 30px;
 }
 
@@ -14,11 +14,21 @@ h1 {
 }
 
 .conteudo {
-    display: flex;
-    height: 200px;
+    display: 70flex;
+    height: 70px;
 }
 
 .conteudo > .esquerda > img {
    width: 30px;
    height:30px;
+}
+
+:root{
+    --primeira-cor: "#000000";
+    --seguda-cor: "#e00000";
+
+    --borda:"#001ee0";
+
+    --fundo:"#ffffff";
+    --tesxt:"#f2ff00";
 }
